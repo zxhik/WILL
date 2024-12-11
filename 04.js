@@ -14,6 +14,8 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  let separado = num.toString().split("").reverse().join("");
+  return (separado == num);
 }
 
 // No modifiques nada debajo de esta linea //
